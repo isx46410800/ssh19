@@ -10,5 +10,6 @@
 /sbin/nslcd  && echo "nslcd OK"
 
 # Deixar-lo en foreground
+/usr/bin/ssh-keygen -A
 /sbin/sshd -D 
 
